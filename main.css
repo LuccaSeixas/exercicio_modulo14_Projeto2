@@ -1,0 +1,67 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+header, footer{
+    background-color: #01132b;
+}
+
+
+.nav-item .nacv-link a,
+.navbar h1:hover{
+    color: #6baaff;
+}
+
+.nav-item .nav-link.active{
+    color: #01132b;
+    background-color: #6baaff;
+}
+
+.navbar-toggler{
+    background-color: #6baaff;
+}
+
+.custom-border{
+    border: 2px solid #6baaff; /* Altere a cor da borda conforme desejado */
+}
+
+
+.text-colored{
+    color: #6baaff;
+}
+
+.section-title{
+    color: #6baaff;
+}
+
+#quem-somos,
+#comprar-ou-vender{
+    background-color: #e8eaec;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+#painel-entrar .modal-content{
+    background-image: url(./img/entrar/entrar.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #e8eaec;
+}
+
+#painel-entrar .modal-content a,
+#painel-cadastro .modal-content a{
+    color: #01132b;
+}
+
+#painel-cadastro .modal-content{
+    background-image: url(./img/cadastro/cadastro.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+footer ul{
+    list-style: none;
+}
